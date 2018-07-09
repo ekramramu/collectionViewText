@@ -22,21 +22,21 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iEe-YU-yUN">
-                                    <size key="itemSize" width="200" height="141"/>
+                                    <size key="itemSize" width="286" height="177"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ACz-2J-mSX" customClass="coustomCollectionViewCell" customModule="CollectionViewFlowlayout" customModuleProvider="target">
-                                        <rect key="frame" x="87.5" y="0.0" width="200" height="141"/>
+                                        <rect key="frame" x="44.5" y="0.0" width="286" height="177"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="200" height="141"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="286" height="177"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7h-Pd-xg2">
-                                                    <rect key="frame" x="79" y="60.5" width="42" height="20.5"/>
+                                                    <rect key="frame" x="122" y="78.5" width="42" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -48,7 +48,7 @@
                                             <constraint firstItem="d7h-Pd-xg2" firstAttribute="centerX" secondItem="ACz-2J-mSX" secondAttribute="centerX" id="cJv-ct-FgX"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="myLabel" destination="d7h-Pd-xg2" id="Rlx-DJ-0Wl"/>
+                                            <outlet property="myLabel" destination="d7h-Pd-xg2" id="OJP-mZ-rJe"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
